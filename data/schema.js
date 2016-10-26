@@ -4,6 +4,6 @@ import schema from './schema.graphql';
 import resolvers from './resolvers';
 
 export default makeExecutableSchema({
-  typeDefs: [schema],
+  typeDefs: schema,
   resolvers,
 });
